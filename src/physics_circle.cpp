@@ -1,4 +1,4 @@
-#include "_circle.h"
+#include "physics_circle.h"
 
 Circle::Circle(float r, sf::Vector2f pos) : PhysicsObject(pos), radius(r) {
     shape.setRadius(radius);
